@@ -22,7 +22,7 @@ mkdir $TEMP_DIR
 cd $TEMP_DIR
 
 # Build gst-python
-git clone https://github.com/GStreamer/gst-python.git
+git clone https://github.com/fomorians-infra/gst-python.git
 cd gst-python
 
 export PYTHON=$PYTHON
