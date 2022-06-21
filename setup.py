@@ -55,7 +55,7 @@ install_requires = [
 setup(
     name='gstreamer-python',
     use_scm_version=True,
-    setup_requires=['setuptools_scm'],
+    setup_requires=['setuptools_scm==6.4.2'],
     description="PyGst Utils package",
     long_description='\n\n'.join((read('README.md'))),
     author="LifeStyleTransfer",
